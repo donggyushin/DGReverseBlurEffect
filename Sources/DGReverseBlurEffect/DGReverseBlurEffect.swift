@@ -57,7 +57,7 @@ class BlurEffectView: UIVisualEffectView {
 }
 
 extension UIView {
-    public func addBlur(parentFrame: CGRect, leftPadding: CGFloat = 0, topPadding: CGFloat = 0, rightPadding: CGFloat = 0, bottomPadding: CGFloat = 0, cornerRadius: CGFloat = 0) {
+    public func reversedBlur(parentFrame: CGRect, leftPadding: CGFloat = 0, topPadding: CGFloat = 0, rightPadding: CGFloat = 0, bottomPadding: CGFloat = 0, cornerRadius: CGFloat = 0) {
         subviews.filter { $0 is BlurEffectView }.forEach { $0.removeFromSuperview() }
         let blurView = BlurEffectView(intensity: 0.15)
         blurView.frame = parentFrame

@@ -24,7 +24,7 @@ Normally you'll want to depend on the DGReverseBlurEffect target:
 ##Usage
 
 ```swift
-imageView.addBlur(parentFrame: frame, leftPadding: 13, topPadding: 10, rightPadding: 13, bottomPadding: 80, cornerRadius: 20)
+imageView.reversedBlur(parentFrame: frame, leftPadding: 13, topPadding: 10, rightPadding: 13, bottomPadding: 80, cornerRadius: 20)
 ```
 
 <img width="250" alt="스크린샷 2024-10-25 오후 6 07 15" src="https://github.com/user-attachments/assets/5012dd3f-f137-43a0-96cd-1a0d833e2305">
