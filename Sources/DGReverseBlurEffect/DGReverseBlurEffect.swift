@@ -16,6 +16,11 @@ class BlurEffectView: UIVisualEffectView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        setUpAnimation()
+    }
 
     override func didMoveToSuperview() {
         guard let superview = superview else { return }

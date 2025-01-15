@@ -11,7 +11,7 @@ Once you have your Swift package set up, adding `DGReverseBlurEffect` as a depen
 
 ```
 dependencies: [
-   .package(url: "https://github.com/donggyushin/DGReverseBlurEffect.git", .upToNextMajor(from: "1.1.0"))
+   .package(url: "https://github.com/donggyushin/DGReverseBlurEffect.git", .upToNextMajor(from: "1.1.1"))
 ]
 ```
 
